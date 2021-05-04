@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: rgb(255, 247, 247);
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(243, 234, 234);
+}
+.bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.semi_bold {
+    font-weight: 500;
+    font-size: 16px;
+}
+.cv {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.cv .cv_right {
+    width: 280px;
+    background: rgb(78, 78, 170);
+    padding: 20px 25px;
+}
+.pro-img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid white;
+
+}
+.name{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.cv_profile{
+    margin: 0rem auto;
+    width: 100%;
+    text-align: center;
+}
+.cv .cv_right .cv_bold {
+    color:brown
+} 
+.cv .cv_right .cv_regular {
+    color: rgb(141, 59, 59);
+}
+.cv .cv_item {
+    padding-top: 20px;
+}
+.cv-left{
+    width: 500px;
+    background: rgb(233, 233, 236);
+    padding: 20px;
+    min-height: 100%;
+}
+h2 .tx-blue{
+    text-transform: uppercase;
+}
+h4.tx-blue{
+    margin: 5px 0px;
+    font-size: 16px;
+}
+.tx-blue{
+    color: rgb(3, 3, 83);
+}
+.tx-gray, .list li{
+    color: rgb(54, 53, 53);
+}
+section{
+    margin-top: 30px;;
+}
+.data i{
+    margin-right: 7px;
+}
+.data{
+    padding: 5px 0px;
+}
+ul{
+    list-style: none;
+}
+ol{
+    margin-left: 15px;
+}
+.cv-height{
+    height: 920px;
+}
+.icons {
+    margin-right: 7px;
+}
+.fa-icon {
+    height:5px;
+    margin-top: 10px;
+    font-size: 2.4rem;
+    padding-right: 0.9em;
+    text-align:center;
+}
+.icon {
+    height:5px;
+    font-size: 2.4rem;
+}
+.d-flex{
+    display: flex;
+}
+.icon-big{
+    font-size: 25px;
+}
